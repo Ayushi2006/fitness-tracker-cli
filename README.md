@@ -13,7 +13,7 @@ A command-line fitness tracker built using Python and MySQL that allows users to
 * Secure database configuration using environment variables 
 
 ## Technologies Used
-
+ 
 * Python
 * MySQL
 * python-dotenv (for secure environment variable management)
