@@ -10,7 +10,7 @@ A command-line fitness tracker built using Python and MySQL that allows users to
 * Update or delete users and activities 
 * View all stored records
 * Track total workout progress for each user
-* Secure database configuration using environment variables
+* Secure database configuration using environment variables 
 
 ## Technologies Used
 
