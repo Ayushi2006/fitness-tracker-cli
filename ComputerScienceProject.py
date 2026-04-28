@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-import mysql.connector
+import mysql.connector 
 
 # Load environment variables from .env file
 load_dotenv()  # Must have a file named ".env" in the same folder
