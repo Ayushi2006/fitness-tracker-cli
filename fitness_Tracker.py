@@ -187,7 +187,7 @@ def show_progress():
     progress = cursor.fetchone()
     total_activities, total_duration, total_calories = progress if progress else (0, 0, 0)
 
-    print(f"\nUser Progress - Total Activities: {total_activities}, Total Duration: {total_duration} mins, Total Calories: {total_calories}")
+    print(f"User Progress - Total Activities: {total_activities}, Total Duration: {total_duration} mins, Total Calories: {total_calories}")
     conn.close()
 
 # Main menu
