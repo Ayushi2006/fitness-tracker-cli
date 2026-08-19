@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import mysql.connector  
 
 # Load environment variables from .env file
-load_dotenv()  # Must have a file named ".env" in the same folder  
+load_dotenv() 
 
 # Connect to the MySQL database safely
 def connect_to_db():
@@ -53,7 +53,7 @@ def add_user():
     height = float(input("Enter height (cm): "))
 
     conn = connect_to_db()
-    cursor = conn.cursor()
+    cursor = conn.cursor() 
     cursor.execute("""
         INSERT INTO users (username, email, age, weight, height)
         VALUES (%s, %s, %s, %s, %s)
