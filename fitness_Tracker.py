@@ -216,7 +216,7 @@ Menu:
         elif choice == "3":
             add_activity()
         elif choice == "4":
-            view_activities()
+            view_activities() 
         elif choice == "5":
             update_activity()
         elif choice == "6":
