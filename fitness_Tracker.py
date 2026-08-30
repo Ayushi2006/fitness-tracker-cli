@@ -5,7 +5,7 @@ import mysql.connector
 # Load environment variables from .env file
 load_dotenv() 
  
-# Connect to the MySQL database safely
+# Connect to the MySQL database
 def connect_to_db():
     return mysql.connector.connect(
         host=os.getenv("DB_HOST"),
@@ -30,7 +30,7 @@ def create_tables():
             weight FLOAT,
             height FLOAT
         )
-    """)
+    """) 
 
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS activities (
@@ -44,7 +44,7 @@ def create_tables():
     """)
     conn.close()
 
-# Add a new user
+# Add new user
 def add_user():
     username = input("Enter username: ")
     email = input("Enter email: ")
