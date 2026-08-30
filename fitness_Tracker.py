@@ -74,7 +74,7 @@ def view_users():
         print(f"{idx}. ID: {user[0]}, Username: {user[1]}, Email: {user[2]}, Age: {user[3]}, Weight: {user[4]}, Height: {user[5]}")
     conn.close()
 
-# Add a new activity
+# Add new activity
 def add_activity():
     user_id = int(input("Enter user ID for the activity: "))
     activity_name = input("Enter activity name: ")
