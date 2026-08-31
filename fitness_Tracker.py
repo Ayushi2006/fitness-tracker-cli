@@ -4,7 +4,7 @@ import mysql.connector
 
 # Load environment variables from .env file
 load_dotenv()     
- 
+  
 # Connect to the MySQL database
 def connect_to_db():
     return mysql.connector.connect(
