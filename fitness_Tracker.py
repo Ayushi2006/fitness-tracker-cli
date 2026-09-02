@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv 
 import mysql.connector   
 
-# Load environment variables from .env file
+# Load environment variables from .env file 
 load_dotenv()     
   
 # Connect to the MySQL database
