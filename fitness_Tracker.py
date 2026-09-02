@@ -7,7 +7,7 @@ load_dotenv()
   
 # Connect to the MySQL database
 def connect_to_db():
-    return mysql.connector.connect(
+    return mysql.connector.connect( 
         host=os.getenv("DB_HOST"),
         user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
@@ -44,7 +44,7 @@ def create_tables():
     """)
     conn.close()
 
-# Add new user
+# Add new user 
 def add_user():
     username = input("Enter username: ")
     email = input("Enter email: ")
