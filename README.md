@@ -2,7 +2,7 @@
      
 A command-line fitness tracker built using Python and MySQL that allows users to record workouts, manage users, and track overall fitness progress. The   application provides a simple menu-driven interface for managing activities and viewing statistics.    
          
-## Features   
+## Features 
  
 * Add and manage users   
 * Record fitness activities 
